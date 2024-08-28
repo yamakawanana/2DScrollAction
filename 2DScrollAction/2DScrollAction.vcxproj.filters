@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Level\LevelChanger.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Level\Level.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\TitleLevel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\SettingLevel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\ResultLevel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\BootLevel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\BattleLevel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Task\TaskManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Task\Task.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Input\InputManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\FileManager\FileManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\LogConsole\LogConsole.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Math\Math.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Fade\FadeManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Field\Field.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameInfo\GameInfo.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameMode\GameMode.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ui\StartUi.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ui\PauseUi.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\FirstWalkingEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\SecondWalkingEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\FlyingEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\JumpingEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Camera\Camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Field\Pipe.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Collision\Collision.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ui\InfoUi.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Item\Item.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Fade\BattleFade.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\GuideLevel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\StageSelectLevel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Audio\AudioManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System\Level\LevelChanger.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Level\Level.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\TitleLevel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\SettingLevel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\ResultLevel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\BootLevel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\BattleLevel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Task\TaskManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Task\Task.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Input\InputManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="System\FileManager\FileManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="System\LogConsole\LogConsole.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\Math.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Fade\FadeManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Field\Field.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameInfo\GameInfo.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameMode\GameMode.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ui\StartUi.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ui\PauseUi.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\FirstWalkingEnemy.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\SecondWalkingEnemy.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\FlyingEnemy.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\JumpingEnemy.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Camera\Camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Field\Pipe.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Collision\Collision.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ui\InfoUi.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Item\Item.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Fade\BattleFade.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\GuideLevel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\StageSelectLevel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Audio\AudioManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\CsvFiles\setting.csv" />
+    <None Include="Assets\CsvFiles\mapdata.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Images\Battle\Background\battle_back.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Background\empty.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Background\float_box.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Background\goal.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Background\ground.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Background\key_info.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Background\tube_left.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Background\tube_middle.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Background\tube_right.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Background\tube_right_.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Background\tube_rim_left.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Background\tube_rim_middle.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Background\tube_rim_right.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Battle\Effect\confetti.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Button\button.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Button\selected_button.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Button\selected_menu.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Fade\black.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Result\gameover_result.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Setting\setting_back.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Setting\star_back.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Setting\triangle.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Title\title.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Title\title_logo.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Ui\pause.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Assets\Images\Ui\start.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Images\Ui\gameover.mp4" />
+    <Media Include="Assets\Sounds\シーン切り替え2.mp3" />
+    <Media Include="Assets\Sounds\whistle.mp3" />
+    <Media Include="Assets\Sounds\snd_ev_bossa.mp3" />
+    <Media Include="Assets\Sounds\Shock4.mp3" />
+    <Media Include="Assets\Sounds\se_powerup10.mp3" />
+    <Media Include="Assets\Sounds\rasputin-russia-tetris-game-cossack-puzzle-soundtrack-mystery-148250.mp3" />
+    <Media Include="Assets\Sounds\punch.mp3" />
+    <Media Include="Assets\Sounds\piano001.mp3" />
+    <Media Include="Assets\Sounds\No.0090_.mp3" />
+    <Media Include="Assets\Sounds\Move42.mp3" />
+    <Media Include="Assets\Sounds\maou_bgm_fantasy05.mp3" />
+    <Media Include="Assets\Sounds\get.mp3" />
+    <Media Include="Assets\Sounds\Enter39.mp3" />
+    <Media Include="Assets\Sounds\Enter26.mp3" />
+    <Media Include="Assets\Sounds\Enter2.mp3" />
+    <Media Include="Assets\Sounds\Cursor12.mp3" />
+    <Media Include="Assets\Sounds\cossack-dance-edm-russian-tetris-electronika-151723.mp3" />
+    <Media Include="Assets\Sounds\clear.mp3" />
+  </ItemGroup>
+</Project>

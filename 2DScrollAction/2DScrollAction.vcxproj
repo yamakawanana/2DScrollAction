@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{235a9fd5-2efc-4f36-9bdf-774bb4753612}</ProjectGuid>
+    <RootNamespace>Tetris</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>2DScrollAction</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)DxLib_VC3_24b\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)DxLib_VC3_24b\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)DxLib_VC3_24b\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <Optimization>MaxSpeed</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)DxLib_VC3_24b\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)DxLib_VC3_24b\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)DxLib_VC3_24b\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)DxLib_VC3_24b\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <Optimization>MaxSpeed</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)DxLib_VC3_24b\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\Audio\AudioManager.cpp" />
+    <ClCompile Include="Game\Enemy\FirstWalkingEnemy.cpp" />
+    <ClCompile Include="Game\Enemy\FlyingEnemy.cpp" />
+    <ClCompile Include="Game\Enemy\JumpingEnemy.cpp" />
+    <ClCompile Include="Game\Enemy\SecondWalkingEnemy.cpp" />
+    <ClCompile Include="Game\Fade\BattleFade.cpp" />
+    <ClCompile Include="Game\Fade\FadeManager.cpp" />
+    <ClCompile Include="Game\Field\Field.cpp" />
+    <ClCompile Include="Game\Field\Pipe.cpp" />
+    <ClCompile Include="Game\GameInfo\GameInfo.cpp" />
+    <ClCompile Include="Game\GameMode\GameMode.cpp" />
+    <ClCompile Include="Game\Item\Item.cpp" />
+    <ClCompile Include="Game\Level\BattleLevel.cpp" />
+    <ClCompile Include="Game\Level\BootLevel.cpp" />
+    <ClCompile Include="Game\Level\ResultLevel.cpp" />
+    <ClCompile Include="Game\Level\GuideLevel.cpp" />
+    <ClCompile Include="Game\Level\SettingLevel.cpp" />
+    <ClCompile Include="Game\Level\StageSelectLevel.cpp" />
+    <ClCompile Include="Game\Level\TitleLevel.cpp" />
+    <ClCompile Include="Game\Player\Player.cpp" />
+    <ClCompile Include="Game\Ui\InfoUi.cpp" />
+    <ClCompile Include="Game\Ui\PauseUi.cpp" />
+    <ClCompile Include="Game\Ui\StartUi.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="System\Camera\Camera.cpp" />
+    <ClCompile Include="System\Collision\Collision.cpp" />
+    <ClCompile Include="System\FileManager\FileManager.cpp" />
+    <ClCompile Include="System\Input\InputManager.cpp" />
+    <ClCompile Include="System\Level\Level.cpp" />
+    <ClCompile Include="System\Level\LevelChanger.cpp" />
+    <ClCompile Include="System\LogConsole\LogConsole.cpp" />
+    <ClCompile Include="System\Math\Math.cpp" />
+    <ClCompile Include="System\Task\Task.cpp" />
+    <ClCompile Include="System\Task\TaskManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Audio\AudioManager.h" />
+    <ClInclude Include="Game\Enemy\FirstWalkingEnemy.h" />
+    <ClInclude Include="Game\Enemy\FlyingEnemy.h" />
+    <ClInclude Include="Game\Enemy\JumpingEnemy.h" />
+    <ClInclude Include="Game\Enemy\SecondWalkingEnemy.h" />
+    <ClInclude Include="Game\Fade\BattleFade.h" />
+    <ClInclude Include="Game\Fade\FadeManager.h" />
+    <ClInclude Include="Game\Field\Field.h" />
+    <ClInclude Include="Game\Field\Pipe.h" />
+    <ClInclude Include="Game\GameInfo\GameInfo.h" />
+    <ClInclude Include="Game\GameMode\GameMode.h" />
+    <ClInclude Include="Game\Item\Item.h" />
+    <ClInclude Include="Game\Level\BattleLevel.h" />
+    <ClInclude Include="Game\Level\BootLevel.h" />
+    <ClInclude Include="Game\Level\ResultLevel.h" />
+    <ClInclude Include="Game\Level\GuideLevel.h" />
+    <ClInclude Include="Game\Level\SettingLevel.h" />
+    <ClInclude Include="Game\Level\StageSelectLevel.h" />
+    <ClInclude Include="Game\Level\TitleLevel.h" />
+    <ClInclude Include="Game\Player\Player.h" />
+    <ClInclude Include="Game\Ui\InfoUi.h" />
+    <ClInclude Include="Game\Ui\PauseUi.h" />
+    <ClInclude Include="Game\Ui\StartUi.h" />
+    <ClInclude Include="System\Camera\Camera.h" />
+    <ClInclude Include="System\Collision\Collision.h" />
+    <ClInclude Include="System\FileManager\FileManager.h" />
+    <ClInclude Include="System\Input\InputManager.h" />
+    <ClInclude Include="System\Level\Level.h" />
+    <ClInclude Include="System\Level\LevelChanger.h" />
+    <ClInclude Include="System\LogConsole\LogConsole.h" />
+    <ClInclude Include="System\Math\Math.h" />
+    <ClInclude Include="System\Task\Task.h" />
+    <ClInclude Include="System\Task\TaskManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\CsvFiles\mapdata.csv" />
+    <None Include="Assets\CsvFiles\setting.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Images\Battle\Background\battle_back.png" />
+    <Image Include="Assets\Images\Battle\Background\empty.png" />
+    <Image Include="Assets\Images\Battle\Background\float_box.png" />
+    <Image Include="Assets\Images\Battle\Background\goal.png" />
+    <Image Include="Assets\Images\Battle\Background\ground.png" />
+    <Image Include="Assets\Images\Battle\Background\key_info.png" />
+    <Image Include="Assets\Images\Battle\Background\tube_left.png" />
+    <Image Include="Assets\Images\Battle\Background\tube_middle.png" />
+    <Image Include="Assets\Images\Battle\Background\tube_right.png" />
+    <Image Include="Assets\Images\Battle\Background\tube_right_.png" />
+    <Image Include="Assets\Images\Battle\Background\tube_rim_left.png" />
+    <Image Include="Assets\Images\Battle\Background\tube_rim_middle.png" />
+    <Image Include="Assets\Images\Battle\Background\tube_rim_right.png" />
+    <Image Include="Assets\Images\Battle\Effect\confetti.png" />
+    <Image Include="Assets\Images\Button\button.png" />
+    <Image Include="Assets\Images\Button\selected_button.png" />
+    <Image Include="Assets\Images\Button\selected_menu.png" />
+    <Image Include="Assets\Images\Fade\black.png" />
+    <Image Include="Assets\Images\Result\gameover_result.png" />
+    <Image Include="Assets\Images\Setting\setting_back.png" />
+    <Image Include="Assets\Images\Setting\star_back.png" />
+    <Image Include="Assets\Images\Setting\triangle.png" />
+    <Image Include="Assets\Images\Title\title.png" />
+    <Image Include="Assets\Images\Title\title_logo.png" />
+    <Image Include="Assets\Images\Ui\pause.png" />
+    <Image Include="Assets\Images\Ui\start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Images\Ui\gameover.mp4" />
+    <Media Include="Assets\Sounds\clear.mp3" />
+    <Media Include="Assets\Sounds\cossack-dance-edm-russian-tetris-electronika-151723.mp3" />
+    <Media Include="Assets\Sounds\Cursor12.mp3" />
+    <Media Include="Assets\Sounds\Enter2.mp3" />
+    <Media Include="Assets\Sounds\Enter26.mp3" />
+    <Media Include="Assets\Sounds\Enter39.mp3" />
+    <Media Include="Assets\Sounds\get.mp3" />
+    <Media Include="Assets\Sounds\maou_bgm_fantasy05.mp3" />
+    <Media Include="Assets\Sounds\Move42.mp3" />
+    <Media Include="Assets\Sounds\No.0090_.mp3" />
+    <Media Include="Assets\Sounds\piano001.mp3" />
+    <Media Include="Assets\Sounds\punch.mp3" />
+    <Media Include="Assets\Sounds\rasputin-russia-tetris-game-cossack-puzzle-soundtrack-mystery-148250.mp3" />
+    <Media Include="Assets\Sounds\se_powerup10.mp3" />
+    <Media Include="Assets\Sounds\Shock4.mp3" />
+    <Media Include="Assets\Sounds\snd_ev_bossa.mp3" />
+    <Media Include="Assets\Sounds\whistle.mp3" />
+    <Media Include="Assets\Sounds\シーン切り替え2.mp3" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
